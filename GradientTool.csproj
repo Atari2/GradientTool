@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <ApplicationVersion>0.8.2.1</ApplicationVersion>
+    <RootNamespace>SFXProductions.GradientTool</RootNamespace>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Configuration>Release</Configuration>
+    <NeutralLanguage>en-CA</NeutralLanguage>
+    <AssemblyTitle>HDMA Gradient Generator</AssemblyTitle>
+    <Company>ExoticMatter Productions</Company>
+    <Product>GradientTool</Product>
+    <Copyright>Copyright ©  2015 ExoticMatter</Copyright>
+    <AssemblyVersion>0.8.2.1</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\blank.cur" />
+    <EmbeddedResource Include="Resources\InvertedCrosshair.cur" />
+  </ItemGroup>
+</Project>
